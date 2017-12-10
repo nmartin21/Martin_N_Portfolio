@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden {
+	display: none;
+}
+
+body
+{
+	background-image: url(../images/Background.jpg);
+}
+
+.noborder {
+	border:0;
+}
+
+
+
+
+.searchBar
+{
+	margin-top:30px;
+}
+
+.searchBar2
+{
+	margin-top:30px;
+}
+
+
+
+.columns
+{
+	position: relative;
+}
+
+.logo
+{
+	margin-top:5px;
+}
+
+.logo2
+{
+	margin-top:5px;
+}
+
+.header
+{
+	margin-top: 20px;
+	height: 80px;
+	background-color: #212121;
+}
+
+
+.menu
+{
+	
+font-family: 'Archivo Black', sans-serif;
+	font-size: 22px;
+	color: #FFFFFF;
+	
+}
+
+
+.menu2
+{
+	
+font-family: 'Archivo Black', sans-serif;
+	font-size: 22px;
+	color: #FFFFFF;
+	
+}
+
+
+.header
+{
+	margin-bottom: 80px;
+}
+
+.footerrow
+{
+	margin-top: 80px;
+}
+
+.mainNav
+{
+	margin-left: 40px;
+	margin-top: 15px;
+}
+
+.mainNav ul li 
+{
+	list-style-type: none;
+	text-decoration: none;
+	
+}
+
+.mainNav ul li a
+{
+	color: #FFFFFF;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.content1
+{
+	margin-bottom: 30px;
+}
+
+.content3
+{
+	margin-top: 30px;
+}
+
+
+
+.image1
+{
+	width: 300px;
+	height: 160px;
+	float: left;
+	background-color: #B3B3B3;
+}
+
+.image2
+{
+	width: 300px;
+	height: 160px;
+	margin-left: 145px;
+	background-color: #B3B3B3;
+}
+
+.image3
+{
+	width: 300px;
+	height: 160px;
+	float: right;
+	background-color: #B3B3B3;
+}
+
+.image4
+{
+	width: 300px;
+	height: 160px;
+	float: left;
+	background-color: #B3B3B3;
+}
+
+.image5
+{
+	width: 300px;
+	height: 160px;
+	margin-left: 145px;
+	background-color: #B3B3B3;
+}
+
+.image6
+{
+	width: 300px;
+	height: 160px;
+	float: right;
+	background-color: #B3B3B3;
+}
+
+.image7
+{
+	width: 300px;
+	height: 160px;
+	float: left;
+	background-color: #B3B3B3;
+}
+
+.image8
+{
+	width: 300px;
+	height: 160px;
+	margin-left: 145px;
+	background-color: #B3B3B3;
+}
+
+.image9
+{
+	width: 300px;
+	height: 160px;
+	float: right;
+	background-color: #B3B3B3;
+}
+
+
+
+
+
+.footer
+{
+	
+	margin-top: 80px;
+	height: 80px;
+	background-color: #212121;
+}
+
+.footerNav
+{
+	margin-top: 10px;
+	
+}
+
+.footerNav ul li 
+{
+	list-style-type: none;
+	text-decoration: none;
+	
+}
+
+.footerNav ul li a
+{
+	color: #FFFFFF;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	float: left;
+}
+
+
+
+
+

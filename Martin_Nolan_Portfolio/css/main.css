@@ -15,7 +15,19 @@ body
 }
 
 
+.logoWhite
+{
+	text-align: center;
+	margin: 0px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	
+}
 
+.linegraphic
+{
+	margin-bottom: 20px;
+}
 
 .searchBar
 {
@@ -34,21 +46,19 @@ body
 	position: relative;
 }
 
-.logo
-{
-	margin-top:5px;
-}
 
-.logo2
-{
-	margin-top:5px;
-}
+
 
 .header
 {
-	margin-top: 20px;
-	height: 80px;
-	background-color: #212121;
+	margin-top: 10px;
+	height: 60px;
+	
+}
+
+.dropdown
+{
+	text-align: center;
 }
 
 
@@ -58,6 +68,8 @@ body
 font-family: 'Archivo Black', sans-serif;
 	font-size: 22px;
 	color: #FFFFFF;
+	text-align: center;
+	
 	
 }
 
@@ -74,7 +86,57 @@ font-family: 'Archivo Black', sans-serif;
 
 .header
 {
-	margin-bottom: 80px;
+	margin-bottom: 20px;
+}
+
+
+.reeltitle
+{
+
+	margin: auto;
+	font-family: 'Lalezar', cursive;
+	font-size: 64px;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+
+h1
+{
+	margin-bottom: 40px;
+	font-family: 'Lalezar', cursive;
+	font-size: 64px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+a
+{
+	margin-bottom: 20px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	
+}
+
+
+.title1
+{
+	text-align: center;
+
+}
+
+
+
+
+
+.info
+{
+	margin-top: 20px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	
 }
 
 .footerrow
@@ -84,8 +146,8 @@ font-family: 'Archivo Black', sans-serif;
 
 .mainNav
 {
-	margin-left: 40px;
-	margin-top: 15px;
+	
+	margin-top: 10px;
 }
 
 .mainNav ul li 
@@ -99,7 +161,7 @@ font-family: 'Archivo Black', sans-serif;
 {
 	color: #FFFFFF;
 	text-align: center;
-	padding: 15px;
+	
 	text-decoration: none;
 }
 
@@ -108,83 +170,111 @@ font-family: 'Archivo Black', sans-serif;
 	margin-bottom: 30px;
 }
 
+
 .content3
 {
+	
+}
+
+.content4
+{
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 
 
 .image1
 {
-	width: 300px;
-	height: 160px;
+
+
+	margin: auto;
 	float: left;
-	background-color: #B3B3B3;
+	
+	
 }
 
 .image2
 {
-	width: 300px;
-	height: 160px;
-	margin-left: 145px;
-	background-color: #B3B3B3;
+	
+	
+
+	float: right;
+	
+	
+	
+	
 }
 
 .image3
 {
-	width: 300px;
-	height: 160px;
-	float: right;
-	background-color: #B3B3B3;
+	
+	
+	float: left;
+	margin-bottom: 20px;
+	
+	
 }
 
 .image4
 {
-	width: 300px;
-	height: 160px;
-	float: left;
-	background-color: #B3B3B3;
+	
+	float: right;
+	
+	
+	
 }
 
 .image5
 {
-	width: 300px;
-	height: 160px;
-	margin-left: 145px;
-	background-color: #B3B3B3;
+	
+	float: left;
+	
+	
+	
+	
 }
 
 .image6
 {
-	width: 300px;
-	height: 160px;
-	float: right;
-	background-color: #B3B3B3;
+	
+    float: right;
+	
+	
 }
 
 .image7
 {
-	width: 300px;
-	height: 160px;
-	float: left;
-	background-color: #B3B3B3;
+	
+    float: left;
+	
+	
+	
 }
 
 .image8
 {
-	width: 300px;
-	height: 160px;
-	margin-left: 145px;
-	background-color: #B3B3B3;
+	
+	float: right;
+	
+	
+	
 }
 
 .image9
 {
-	width: 300px;
-	height: 160px;
+	
+	float: left;
+	
+	
+}
+
+.image10
+{
+	
 	float: right;
-	background-color: #B3B3B3;
+	
+	
 }
 
 

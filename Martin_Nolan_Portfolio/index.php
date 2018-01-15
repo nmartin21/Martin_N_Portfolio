@@ -1,22 +1,19 @@
 <?php
 
 
-
 require_once("admin/scripts/load.php");
 if(isset($_POST['submit'])){
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$street = $_POST['street'];
+$number = $_POST['number'];
 $direct = "Thankyou.php";
 
-if($street ==="") {
-$sendMail = submitMessage($name, $email, $message, $street, $direct);
+if($number ==="") {
+$sendMail = submitMessage($name, $email, $message, $direct);
 //echo "street is empty";
 }
 }
-
-
 
 
 ?>
@@ -30,6 +27,7 @@ $sendMail = submitMessage($name, $email, $message, $street, $direct);
 <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 <link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 
 
 </head>
@@ -169,7 +167,7 @@ $sendMail = submitMessage($name, $email, $message, $street, $direct);
 	
 	
 	
-	<form action="contact.php" method="post">
+	<form action="index.php" method="post">
     <div class="firstC row large-12 columns">
 	
 	<div class="name large-5 columns">

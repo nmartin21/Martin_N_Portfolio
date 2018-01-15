@@ -7,7 +7,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 $street = $_POST['street'];
-$direct = "Thankyou.php";
+$direct = "index.php";
 
 if($street ==="") {
 $sendMail = submitMessage($name, $email, $message, $direct);
@@ -21,7 +21,7 @@ $sendMail = submitMessage($name, $email, $message, $direct);
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Contact Us</title>
+<title>Contact Me</title>
 </head>
 <body>
     <form action="contact.php" method="post">

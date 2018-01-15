@@ -29,15 +29,7 @@ body
 	margin-bottom: 20px;
 }
 
-.searchBar
-{
-	margin-top:30px;
-}
 
-.searchBar2
-{
-	margin-top:30px;
-}
 
 
 
@@ -58,14 +50,31 @@ body
 
 .dropdown
 {
-	text-align: center;
+	display: table;
+     margin: 0 auto;
 }
+
+
+.button
+{
+	background-color: #0F202E;
+	position: absolute;
+	bottom:3px;
+    right:5px;
+	
+}
+
+.button:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 
 
 .menu
 {
 	
-font-family: 'Archivo Black', sans-serif;
+font-family: 'Lalezar', cursive;
 	font-size: 22px;
 	color: #FFFFFF;
 	text-align: center;
@@ -77,10 +86,26 @@ font-family: 'Archivo Black', sans-serif;
 .menu2
 {
 	
-font-family: 'Archivo Black', sans-serif;
+font-family: 'Lalezar', cursive;
 	font-size: 22px;
+	text-align: center;
 	color: #FFFFFF;
 	
+}
+
+.name
+{
+	
+}
+
+.email
+{
+	
+}
+
+.submission
+{
+	margin-bottom: 20px;
 }
 
 
@@ -101,6 +126,41 @@ font-family: 'Archivo Black', sans-serif;
 
 }
 
+.rod
+{
+	margin-bottom: 20px;
+}
+
+
+
+.Ctitle2
+{
+
+	margin: auto;
+	font-family: 'Lalezar', cursive;
+	font-size: 64px;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+
+.title2
+{
+	text-align: center;
+}
+
+.reelsubltitle
+{
+
+	margin: auto;
+	font-family: 'Lalezar', cursive;
+	font-size: 34px;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+
+
 h1
 {
 	margin-bottom: 40px;
@@ -112,11 +172,16 @@ h1
 
 a
 {
-	margin-bottom: 20px;
+	
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 20px;
 	color: #FFFFFF;
 	
+}
+
+.aboutme
+{
+	margin-bottom: 40px;
 }
 
 
@@ -126,6 +191,12 @@ a
 
 }
 
+.title2
+{
+	color: #FFFFFF;
+	text-align: center;
+}
+
 
 
 
@@ -133,15 +204,26 @@ a
 .info
 {
 	margin-top: 20px;
+	margin-bottom: 20px;
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 20px;
 	color: #FFFFFF;
 	
 }
 
+.rodinfo
+{
+	margin-top: 20px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 26px;
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+
 .footerrow
 {
-	margin-top: 80px;
+	margin-top: 10	0px;
 }
 
 .mainNav
@@ -154,6 +236,8 @@ a
 {
 	list-style-type: none;
 	text-decoration: none;
+	margin: 0;
+	padding: 0;
 	
 }
 
@@ -165,7 +249,18 @@ a
 	text-decoration: none;
 }
 
+.mainNav ul li a:hover
+{
+	color: #07A6FF;
+}
+
 .content1
+{
+	margin-bottom: 30px;
+	background-repeat: repeat-x;  
+}
+
+.content2mid
 {
 	margin-bottom: 30px;
 }
@@ -173,7 +268,13 @@ a
 
 .content3
 {
+	margin-bottom: 30px;
 	
+}
+
+.content3mid
+{
+	margin-bottom: 30px;
 }
 
 .content4
@@ -182,13 +283,20 @@ a
 	margin-bottom: 30px;
 }
 
+.content5
+{
+	margin-bottom: 30px;
+}
+
 
 
 .image1
 {
-
-
-	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+    display:inline-block;
+    position:relative;
+	line-height: 20px;
 	float: left;
 	
 	
@@ -198,8 +306,11 @@ a
 {
 	
 	
-
+margin-top: 5px;
+	margin-bottom: 5px;
 	float: right;
+	display:inline-block;
+    position:relative;
 	
 	
 	
@@ -277,6 +388,11 @@ a
 	
 }
 
+.nolaninfo
+{
+	margin-bottom: 30px;
+}
+
 
 
 
@@ -284,21 +400,30 @@ a
 .footer
 {
 	
-	margin-top: 80px;
+	text-align: center;
 	height: 80px;
-	background-color: #212121;
+	list-style-type: none;
+	text-decoration: none;
+	
 }
+
 
 .footerNav
 {
-	margin-top: 10px;
 	
+	margin-top: 10px;
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
 }
 
 .footerNav ul li 
 {
+	display: inline;
+	text-align: center;
 	list-style-type: none;
 	text-decoration: none;
+	
 	
 }
 
@@ -306,10 +431,19 @@ a
 {
 	color: #FFFFFF;
 	text-align: center;
-	padding: 8px;
+	list-style-type: none;
 	text-decoration: none;
-	float: left;
+	padding: 8px;
 }
+
+.footerNav ul li a:hover
+{
+	color: #07A6FF;
+}
+
+
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { }
 
 
 
